@@ -1,9 +1,4 @@
-html{
-    font-size: large;
-}
-body{
-    font-size: smaller;
-}
-h1{
-    font-size: larger;
+@import "generalmarkup.css";
+nav{
+    
 }
