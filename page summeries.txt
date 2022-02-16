@@ -1,0 +1,27 @@
+main page
+	small
+		location
+		contact information
+		bussiness hours
+	links to
+		AG
+		contact
+		privacy policy
+		(cookies disclaimers)
+	introduction and pictures
+contact page
+	location
+	phone numbers
+	email
+	bussiness hours
+	staff members
+menu page
+	cookie items
+how we make our cookies
+	gibberisch 
+bussiness partners
+	appie heijn
+	
+
+
+
