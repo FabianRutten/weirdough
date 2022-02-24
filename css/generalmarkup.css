@@ -75,6 +75,20 @@ div.topbar{
 .navbuttoncontent a:hover {background-color: #ddd;}
 .show {display: block;}
 
+.navigation_links{
+  margin: 0;
+  padding: 10;
+  left: 50%;
+}
+
+.footer{
+  background-color: rgb(71, 71, 71);
+  height: 100px;
+  color: #f1f1f1;
+  position: fixed;
+  bottom: 0%;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
