@@ -22,7 +22,10 @@
 }
 
 .article-left{
+    background-color: rgb(181, 219, 213);
+    display: block;
 }
 
 .article-right{
+    display: inline-block;
 }
