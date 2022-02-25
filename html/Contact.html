@@ -7,33 +7,49 @@
     <meta charset="utf-8">
     <link rel="icon" href="../media/cookie-icon.png" />
     <link rel="stylesheet" href="../css/ContactPage.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="rating" content="adult" />
 </head>
 
 <body>
-    <div class="topbar shadowcast">
+    <div class="topbar shadowcast" id="topbar">
         <header class="topbar">
-            <img class="cookie_icon" src="../media/cookie-icon.png" alt="two beautifull cookies" />
-            <h1 class="thename center">Weirdough</h1>
+            <img class="cookie-icon" src="../media/cookie-icon.png" alt="two beautifull cookies" />
+            <h1 class="thename vertical-center">Weirdough</h1>
         </header>
         <nav class="topbar">
-            <div class="topbar mobile_user">
-                <button onclick="dropitdown()" class="navbutton topbar vertical-center"></button>
+            <div class="topbar mobile-user">
+                <button onclick="dropitdown()" class="topbar navbutton"></button>
                 <div id="navdropdown" class="navbuttoncontent">
                     <a href="./menu.html">Menu</a>
                     <a href="#about">About</a>
                     <a href="./Contact.html">Contact</a>
                 </div>
             </div>
-            <div class="topbar desktop_user">
-                <a href="./HomePage.html">homepage</a>
-                <a href="./menu.html">Menu</a>
-                <a href="./About.html">About</a>
-                <a href="./Contact.html">Contact</a>
-                <a href="./Partners.html">business partners</a>
+            <div class="topbar desktop-user">
+                <table class="topbar-links-table">
+                    <tr>
+                        <th>
+                            <a href="./HomePage.html">homepage</a>
+                        </th>
+                        <th>
+                            <a href="./menu.html">Menu</a>
+                        </th>
+                        <th>
+                            <a href="./About.html">About</a>
+                        </th>
+                        <th>
+                            <a href="./Contact.html">Contact</a>
+                        </th>
+                        <th>
+                            <a href="./Partners.html">business partners</a>
+                        </th>
+                    </tr>
+                </table>
             </div>
         </nav>
     </div>
-
     <div class="adress">
         <h2>
             where are we located
@@ -97,7 +113,7 @@
             staff members
         </h2>
         <ul>
-            <li> Frank, baker
+            <li> Frank, chef
             <li> Marienne, restaurant manager
             <li> Bill, waiter
             <li> Emma, waitress
