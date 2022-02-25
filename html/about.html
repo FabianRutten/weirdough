@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Weirdough - The cookie serving diner
+        </title>
+        <meta charset="utf-8">
+        <link rel="icon" href="../media/cookie-icon.png"/><!--tab icon-->
+        <link rel="stylesheet" href="../css/about.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <div class="topbar shadowcast" id="topbar">
+            <header class="topbar">
+                <img class="cookie-icon" src="../media/cookie-icon.png" alt="two beautifull cookies"/>  
+                <h1 class="thename vertical-center">Weirdough</h1>             
+            </header>
+            <nav class="topbar">
+                <div class="topbar mobile-user">
+                    <button onclick="dropitdown()" class="topbar navbutton"></button>
+                    <div id="navdropdown" class="navbuttoncontent">
+                        <a href="homepage.html">Homepage</a>
+                        <a href="menu.html">Menu</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+                <div class="topbar desktop-user">
+                    <table class="topbar-links-table">
+                        <tr>
+                            <th>
+                                <a href="homepage.html">Homepage</a>
+                            </th>
+                            <th>
+                                <a href="menu.html">Menu</a>
+                            </th>
+                            <th>
+                                <a href="contact.html">Contact</a>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <h1>About Us</h1>
+            <div>
+                <div>
+                    <h2>Ethics</h2>
+                    <p>Lorem Ipsum enzo weet je wel</p>
+                </div>
+                <img src="../media/cookie-dough.jpg">
+            </div>
+        </div>
+        <footer id="footer">
+            <div class=" desktop-user">
+                <h5>Opening Times</h5>
+                <table class="time-table">
+                    <tr>
+                        <th>
+                            Day
+                        </th>
+                        <th>
+                            Time      
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            Monday
+                        </td>
+                        <td>
+                            Tuesday
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <a href="../html/contact#openingtimes">Opening Times</a>
+            </div>
+        </footer>
+    </body>
+    <!--scripts: navbutton-->    
+    <script src="../javascript/navdropdownbutton.js"></script>
+</html>
