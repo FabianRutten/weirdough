@@ -1,1 +1,6 @@
 @import "generalmarkup.css";
+.partners{
+	float: left;
+	margin-left: 50px;
+	width: 30%;
+}
