@@ -87,6 +87,7 @@ div.topbar{
   color: #f1f1f1;
   position: fixed;
   bottom: 0%;
+  display: inline-block;
 }
 
 .vertical-center {
