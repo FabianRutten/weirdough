@@ -1,57 +1,110 @@
 <!DOCTYPE html>
 <html>
-<link href="../css/menu.css">
 <head>
     <title>
         Weirdough - contact us
     </title>
+    <meta charset="utf-8">
+    <link rel="icon" href="../media/cookie-icon.png" />
+    <link rel="stylesheet" href="../css/ContactPage.css" />
 </head>
-    <nav>
-        <a href="./menu.html">the menu</a>
-        <a href="../html/MainPage.html"> main page</a>
-    </nav>
+
 <body>
-    <h2>
-        Who are we
-    </h2>
-    <p>
-        people who love to make cookies and spread that love to others.
-    </p>
+    <div class="topbar shadowcast">
+        <header class="topbar">
+            <img class="cookie_icon" src="../media/cookie-icon.png" alt="two beautifull cookies" />
+            <h1 class="thename center">Weirdough</h1>
+        </header>
+        <nav class="topbar">
+            <div class="topbar mobile_user">
+                <button onclick="dropitdown()" class="navbutton topbar vertical-center"></button>
+                <div id="navdropdown" class="navbuttoncontent">
+                    <a href="./menu.html">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="./Contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="topbar desktop_user">
+                <a href="./HomePage.html">homepage</a>
+                <a href="./menu.html">Menu</a>
+                <a href="./About.html">About</a>
+                <a href="./Contact.html">Contact</a>
+                <a href="./Partners.html">business partners</a>
+            </div>
+        </nav>
+    </div>
 
-    <h2>
-        where are we located
-    </h2>
-    <p>
-        we are located in:
-    </p>
+    <div class="adress">
+        <h2>
+            where are we located
+        </h2>
+        <p>
+            You find our store at the koekebakkersteeg 2, 2406 JH Alphen aan den Rijn
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.263042158459!2d4.66104771579294!3d52.129536479742136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5daf7391b1b11%3A0x3d383208250a1b04!2sKoekebakkersteeg%202%2C%202406%20JH%20Alphen%20aan%20den%20Rijn!5e0!3m2!1snl!2snl!4v1645784783758!5m2!1snl!2snl"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </p>
+    </div>
 
-    <h2 id="openingtimes">
-        when are we open
-    </h2>
-    <p>
-        we are open on the following times:
-    </p>
-    <ul>
-        <li> Monday through friday -
-        <li> Saturday -
-        <li> We are closed on sunday
-    </ul>
+    <div class="hours">
+        <h2>
+            our business hours:
+        </h2>
+        <table>
+            <tr>
+                <th>day </th>
+                <th>time</th>
+            </tr>
+            <tr>
+                <td>Monday</td>
+                <td>9:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td>9:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>9:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>9:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>9:00-21:00</td>
+            </tr>
+            <tr>
+                <td>Saturday</td>
+                <td>10:00-20:00</td>
+            </tr>
+            <tr>
+                <td>Sunday</td>
+                <td>closed</td>
+            </tr>
+        </table>
+    </div>
+    <div class="contactinfo">
+        <h2>
+            how to contact us
+        </h2>
+        <p>
+            our phone number: +31 71 003 2871
+            <br> our email adress: WeirDough@gmail.com
+        </p>
 
-    <h2>
-        how to contact us
-    </h2>
-    <p>
-        our phone number:
-        <br> our email adress:
-    </p>
-
-    <h2>
-        staff members
-    </h2>
-    <ul>
-        <li> Fabian
-        <li> Olaf
-        <li> Sweder
-    </ul>
+        <h2>
+            staff members
+        </h2>
+        <ul>
+            <li> Frank, baker
+            <li> Marienne, restaurant manager
+            <li> Bill, waiter
+            <li> Emma, waitress
+            <li> Fabian, website developer
+            <li> Olaf, websiter developer
+            <li> Sweder, website developer
+        </ul>
+    </div>
 </body>
 </html>
