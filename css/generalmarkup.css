@@ -7,10 +7,15 @@ html,body{
 footer{
   color: #f1f1f1;
   background-color: rgb(36, 35, 35);
-  width: 100%;
+  font-size: 16;
+  width: auto;
 }
-
-
+.footer-links{
+  text-decoration: none;
+  color: #f1f1f1;
+  float: left;
+  left: 10px;
+}
 
 .topbar{
     background-color: rgb(206, 97, 54);
@@ -20,20 +25,19 @@ footer{
     top:0;
     color: aliceblue;
 }
+
+/*modern browser have bad support for custom borders
+in order for it to work you need to asign it through id*/
+
 .time-table{
-  width: 200px;
+border: 1px solid white;
 }
-.time-table, .timetable.th, .timetable.td{
- border: 2px #ffffff;
-}
-
-
 .shadowcast{
   box-shadow: 0px 8px 16px 0px rgba(19, 19, 19, 0.2);
 }
 
 div.topbar{
-    width: 100%;
+  width: 100%;
 }
 
 .thename{
@@ -75,11 +79,7 @@ div.topbar{
 .navbuttoncontent a:hover {background-color: #ddd;}
 .show {display: block;}
 
-.navigation_links{
-  margin: 0;
-  padding: 10;
-  left: 50%;
-}
+
 
 .footer{
   background-color: rgb(71, 71, 71);
@@ -169,4 +169,16 @@ footer{
 .maincontent{
   min-height: calc(100vh - 200px);
 }
+}
+
+.beterlevenkeurmerk{
+  float: left;
+  width: 200px;
+  height: auto;
+}
+
+#openingtimes{
+  float: left;
+  width: 200px;
+  left: 10px;
 }
