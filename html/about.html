@@ -16,22 +16,28 @@
                 <h1 class="thename vertical-center">Weirdough</h1>             
             </header>
             <nav class="topbar">
+                <!--mobile only navigation-->
                 <div class="topbar mobile-user">
                     <button onclick="dropitdown()" class="topbar navbutton"></button>
                     <div id="navdropdown" class="navbuttoncontent">
-                        <a href="homepage.html">Homepage</a>
+                        <a href="homepage.html">Home</a>
                         <a href="menu.html">Menu</a>
+                        <a href="partners.html">Partners</a>
                         <a href="contact.html">Contact</a>
                     </div>
                 </div>
+                <!--desktop (big screen) only navigation-->
                 <div class="topbar desktop-user">
                     <table class="topbar-links-table">
                         <tr>
                             <th>
-                                <a href="homepage.html">Homepage</a>
+                                <a href="homepage.html">Home</a>
                             </th>
                             <th>
                                 <a href="menu.html">Menu</a>
+                            </th>
+                            <th>
+                                <a href="partners.html">Partners</a>
                             </th>
                             <th>
                                 <a href="contact.html">Contact</a>
@@ -47,11 +53,11 @@
                     <h1>About Us</h1>
                     <article>
                         <h2>How it started</h2>
-                        <p>This restaurant started with a shared love for cookies. We wanted to create a place where you can buy and eat cookies, so we could share our love with the rest of the world. This idea would prove to be the start of a long and intense journey, that eventually culminated in this And this restaurant will only be the start of our cookie empire!</p>
+                        <p>This restaurant started with a shared love for cookies. We wanted to create a place where you could buy and eat cookies, so we could share our love with the rest of the world. This idea would prove to be the start of a long and intense journey, that took us to all outskirts of the world in a search for perfection, and that eventually culminated in this restaurant. So take a look at the menu because we have something for everyone, and we hope we will see you soon!</p>
                     </article>    
                 </div>
                 <div class="overflow">
-                    <img src="../media/cookie-dough.jpg">
+                    <img class="images" src="../media/cookie-dough.jpg" alt="raw cookie dough on a plate">
                 </div>
             </div>
             <div class="divider"></div>
@@ -64,7 +70,13 @@
                     </article>    
                 </div>
                 <div class="text overflow">
-                    <iframe src="https://www.youtube.com/embed/QQh5X1r0jCc" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    <p>We import our chocolate chip cookies from one of our business partners, and they have provided a special video about how their cookies are made:</p>
+                    <p>We import our chocolate chip cookies from one of our business partners, and they have provided a special video about how their cookies are made:</p>
+                    <div id="video-container">
+                        <div id="aspect-ratio"></div>
+                        <div id="video">
+                            <iframe src="https://www.youtube.com/embed/QQh5X1r0jCc" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="divider"></div>
@@ -72,56 +84,99 @@
                 <div class="text right">
                     <article>
                         <h2>Ethics and sustainability</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing 
-                            and typesetting industry. 
-                            Lorem Ipsum has been the industry's 
-                            standard dummy text ever since the 1500s, 
-                            when an unknown printer took a galley of 
-                            type and scrambled it to make a type specimen book. 
-                            It has survived not only five centuries, 
-                            but also the leap into electronic typesetting, 
-                            remaining essentially unchanged. 
-                            It was popularised in the 1960s with 
-                            the release of Letraset sheets containing 
-                            Lorem Ipsum passages, and more recently with 
-                            desktop publishing software like Aldus PageMaker 
-                            including versions of Lorem Ipsum.
-                        </p>
+                        <p>When we started this restaurant we wanted it to not only produce the best tasting cookies, but also ensure that the farmers creating our ingredients were properly compensated for the time and hard work they put in to creating their produce. In order to ensure all our associates share our ideology, we spent a long time finding such partners. As such we can now confidently say all our business partners only participate in completely fair and ethical business and often times take great endeavors to ensure other companies understand the importance of properly compensating with whom they work.</p>
+                        <p>Similarly, we made the same effort to ensure we have the smallest carbon footprint we could possibly have. We take climate change very seriously and we will do everything in our power to help fight it. We made sure all our partners share this opinion. We also help invest in the future of farming with a reduced impact on the climate, by supporting local charities of the farms we work with, that invest in new farming techniques which use less harmful products like fertilizer.</p>
                     </article>    
                 </div>
                 <div class="overflow">
-                    <img src="../media/cookie-dough.jpg">
+                    <img class="images" src="../media/cocoa.jpg" alt="hands holding cocoa beans">
                 </div>
             </div>
             <div class="divider"></div>
         </div>
         <footer id="footer">
             <div class=" desktop-user">
-                <h5>Opening Times</h5>
-                <table class="time-table">
-                    <tr>
-                        <th>
-                            Day
-                        </th>
-                        <th>
-                            Time      
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            Monday
-                        </td>
-                        <td>
-                            Tuesday
-                        </td>
-                    </tr>
-                </table>
+                <div id="openingtimes">
+                    <table class="time-table">
+                        <tr class="time-table">
+                            <th class="time-table">
+                                Day
+                            </th>
+                            <th class="time-table">
+                                Time      
+                            </th>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Monday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Tuesday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Wednesday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Thursday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Friday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Saturday
+                            </td>
+                            <td class="time-table">
+                                10:00-20:00
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Sunday
+                            </td>
+                            <td class="time-table">
+                                Closed
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="beterlevenkeurmerk">
+                    <h5>We don't put effort into a better life for animals</h5>
+                    <img class="beterlevenkeurmerk" src="../media/beterleven-1ster.jpg" alt="we only have one beterleven star">
+                </div>
+                <a href="https://www.termsfeed.com/live/b6e9efa3-4574-4848-802a-d16e3c5cfddf">Terms and Conditions</a>
             </div>
-            <div>
-                <a href="../html/contact#openingtimes">Opening Times</a>
+            <div class="mobile-user footer-links">
+                <a class="footerlinks" href="./Contact.html#openingtimes">Opening Times</a>
+                <a href="./Contact.html#staffmembers">Staff members</a>
+                <a href="https://www.termsfeed.com/live/b6e9efa3-4574-4848-802a-d16e3c5cfddf">Terms and Conditions</a>
             </div>
         </footer>
-    </body>
-    <!--scripts: navbutton-->    
+        <!--scripts: navbutton-->    
     <script src="../javascript/navdropdownbutton.js"></script>
+    </body>
 </html>
