@@ -1,1 +1,58 @@
 @import "generalmarkup.css";
+
+.article {
+    background-color: whitesmoke;
+    overflow: auto;
+    width: 100%;
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.divider {
+    background-color: black;
+    width: 100%;
+    height: 10px;
+}
+
+img {
+    width: calc(100vw - 4em);
+    height: auto;
+    margin-left: 2em;
+}
+
+iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (min-width: 1000px){
+    .left {
+        float: left;
+        width: 45%;
+    }
+    
+    .right {
+        float: right;
+        width: 45%;
+    }
+    
+    .overflow {
+        overflow: hidden;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    iframe {
+        width: 100%;
+        height: 315px;
+    }
+}
