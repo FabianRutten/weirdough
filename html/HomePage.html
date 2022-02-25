@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>
             Weirdough - The cookie serving diner
         </title>
         <meta name="description" content="Weirdough is a cookie serving restaurant.">
         <meta charset="utf-8">
-        <meta property="">
         <link rel="icon" href="../media/cookie-icon.png"/><!--tab icon-->
         <link rel="stylesheet" href="../css/HomePage.css"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,14 +19,17 @@
                 <h1 class="thename vertical-center">Weirdough</h1>             
             </header>
             <nav class="topbar">
+                <!--mobile only navigation-->
                 <div class="topbar mobile-user">
                     <button onclick="dropitdown()" class="topbar navbutton"></button>
                     <div id="navdropdown" class="navbuttoncontent">
                         <a href="./menu.html">Menu</a>
-                        <a href="#about">About</a>
+                        <a href="./about.html">About</a>
+                        <a href="./Partners.html">Partners</a>
                         <a href="./Contact.html">Contact</a>
                     </div>
                 </div>
+                <!--desktop (big screen) only navigation-->
                 <div class="topbar desktop-user">
                     <table class="topbar-links-table">
                         <tr>
@@ -38,6 +40,9 @@
                                 <a href="./About.html">About</a>
                             </th>
                             <th>
+                                <a href="./Partners.html">Partners</a>
+                            </th>
+                            <th>
                                 <a href="./Contact.html">Contact</a>
                             </th>
                         </tr>
@@ -46,72 +51,143 @@
             </nav>
         </div>
         <div id="maincontent" class="maincontent">
-            <h1>What is Lorem Ipsum?</h1>
-                <p>
-            Lorem Ipsum is simply dummy text of the printing 
-            and typesetting industry. 
-            Lorem Ipsum has been the industry's 
-            standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley of 
-            type and scrambled it to make a type specimen book. 
-            It has survived not only five centuries, 
-            but also the leap into electronic typesetting, 
-            remaining essentially unchanged. 
-            It was popularised in the 1960s with 
-            the release of Letraset sheets containing 
-            Lorem Ipsum passages, and more recently with 
-            desktop publishing software like Aldus PageMaker 
-            including versions of Lorem Ipsum.
-                </p>
-                <h2>Where does it come from?</h2>
-                <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                </p>
-                <p>
-            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-                </p>
-                <h2>
-            Why do we use it?
-                </h2>
-                <article>
-            t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                </article>
-                <aside>
-                   <h3>
-                   Where can I get some?
-                  </h3>
-                     <p>
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                     </p>
-                </aside>
+          <h1 id="maintitle">
+              The best sweetness in Europe!
+          </h1>
+          <article class="article-right">
+              <h3>
+                  We devine our cookies with the best of products!
+              </h3>
+              <img src="../media/cookie-gif-v2.webp" id="movingcookies" alt="its a moving cookie">
+              <p>
+                We believe that nobody should worry about the origins of their sweets.
+                We source them from only the best. 
+              </p>
+             
+          </article>
+          <article class="article-left">
+              <h3>
+                  Visit us!
+              </h3>
+              <p>
+                As of today we are only open for walk-ins.
+                Reservations will be available later on through the wesbite.
+              </p>
+
+          </article>
+          <article class="article-right">
+              <h3>Our development</h3>
+              <p>
+                The Weirdough is currently in the development phase of a brand new edition! Weirdough is a pop-up restaurant, which means that a lot is involved with each new opening. We are working hard on our location and of course the most important thing: a completely new and unique menu!
+                We will open as soon as we are sure to provide our guests with an unforgettable evening.
+                As soon as we know more about the date, we will let you know as soon as possible! Want to be the first to know? Sign up now for the newsletter via this site. (not possible yet)
+              </p>
+          </article>
+          <article class="article-left">
+              <h3>
+                  A little story
+              </h3>
+              <p>One day while sitting and marathon watching movies, nothing sounded better than a delicious baked good. Rummaging through the kitchen the only thing I could find was for a savory dinner menu and thought, why not? Thus Weirdough emerged; mouth watering homemade baked goods with a little bit of weird.
+
+ 
+
+                Each treat is made with irregular ingredients, but that is not to say they are not scrumptious. The weird ingredients enhance the flavor of the treats giving them great power, and in return giving me great responsibility to share them with the world.
+                
+                 
+                
+                All the treats are baked in the comfort of my own home, so you know they are made with dancing in the kitchen, singing while making them joy. Once they are perfectly prepared, I deliver them right to you. A weird delicious dessert with all the love of a home kitchen delivered right to your door to enjoy. How can it get any better?
+                
+                 
+                
+                Let’s get weird.</p>
+
+          </article>
+
         </div>
         <footer id="footer">
             <div class=" desktop-user">
-                <h5>Opening Times</h5>
-                <table class="time-table">
-                    <tr>
-                        <th>
-                            Day
-                        </th>
-                        <th>
-                            Time      
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            Monday
-                        </td>
-                        <td>
-                            Tuesday
-                        </td>
-                    </tr>
-                </table>
+                <div id="openingtimes">
+                    <table class="time-table">
+                        <tr class="time-table">
+                            <th class="time-table">
+                                Day
+                            </th>
+                            <th class="time-table">
+                                Time      
+                            </th>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Monday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Tuesday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Wednesday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Thursday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Friday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Saturday
+                            </td>
+                            <td class="time-table">
+                                10:00-20:00
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Sunday
+                            </td>
+                            <td class="time-table">
+                                Closed
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="beterlevenkeurmerk">
+                    <h5>We don't put effort into a better life for animals</h5>
+                    <img class="beterlevenkeurmerk" src="../media/beterleven-1ster.jpg" alt="we only have one beterleven star">
+                </div>
+                <a href="https://www.termsfeed.com/live/b6e9efa3-4574-4848-802a-d16e3c5cfddf">Terms and Conditions</a>
             </div>
-            <div>
-                <a href="../html/contact#openingtimes">Opening Times</a>
+            <div class="mobile-user footer-links">
+                <a class="footerlinks" href="./Contact.html#openingtimes">Opening Times</a>
+                <a href="./Contact.html#staffmembers">Staff members</a>
+                <a href="https://www.termsfeed.com/live/b6e9efa3-4574-4848-802a-d16e3c5cfddf">Terms and Conditions</a>
             </div>
         </footer>
-    </body>
-    <!--scripts: navbutton-->    
+        <!--scripts: navbutton-->    
     <script src="../javascript/navdropdownbutton.js"></script>
+    </body>
+    
 </html>
