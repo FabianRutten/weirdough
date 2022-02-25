@@ -5,37 +5,175 @@
             Weirdough - The cookie serving diner
         </title>
         <meta charset="utf-8">
+        <link rel="icon" href="../media/cookie-icon.png"/>
         <link rel="stylesheet" href="../css/menu.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     </head>
     <body>
-        <div class="topbar shadowcast">
+        <div class="topbar shadowcast" id="topbar">
             <header class="topbar">
-                <img class="cookie_icon" src="../media/cookie-icon.png" alt="two beautifull cookies"/>
-                <h1 class="thename center">Weirdough</h1>
+                <img class="cookie-icon" src="../media/cookie-icon.png" alt="two beautifull cookies"/>  
+                <h1 class="thename vertical-center">Weirdough</h1>             
             </header>
             <nav class="topbar">
-                <div class="topbar mobile_user">
-                    <button onclick="dropitdown()" class="navbutton topbar vertical-center"></button>
+                <!--mobile only navigation-->
+                <div class="topbar mobile-user">
+                    <button onclick="dropitdown()" class="topbar navbutton"></button>
                     <div id="navdropdown" class="navbuttoncontent">
-                        <a href="./menu.html">Menu</a>
-                        <a href="#about">About</a>
-                        <a href="./Contact.html">Contact</a>
+                        <a href="homepage.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="partners.html">Partners</a>
+                        <a href="contact.html">Contact</a>
                     </div>
                 </div>
-                <div class="topbar desktop_user">
-                    <a href="./menu.html">Menu</a>
-                    <a href="./About.html">About</a>
-                    <a href="./Contact.html">Contact</a>
+                <!--desktop (big screen) only navigation-->
+                <div class="topbar desktop-user">
+                    <table class="topbar-links-table">
+                        <tr>
+                            <th>
+                                <a href="homepage.html">Home</a>
+                            </th>
+                            <th>
+                                <a href="about.html">About</a>
+                            </th>
+                            <th>
+                                <a href="partners.html">Partners</a>
+                            </th>
+                            <th>
+                                <a href="contact.html">Contact</a>
+                            </th>
+                        </tr>
+                    </table>
                 </div>
             </nav>
         </div>
-        <div class="menu center">
-            <h1>Menu</h1>
-            <h2>Starters</h2>
+        <h1 id="main-header">Menu</h1>
+        <div class="menu">
+            <br>
+            <h2 class="course-header">Starters</h2>
             <div class="fooditem">
                 <div class="foodtext">
                     <p class="name">Dough</p>
-                    <p class="description">Raw cookie dough</p>    
+                    <p class="description">Raw cookie dough</p>
+                </div>
+                <div class="foodprice">
+                    <p>5.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Choc Chip</p>
+                    <p class="description">Big round cookies with chocolate in them</p>
+                </div>
+                <div class="foodprice">
+                    <p>4.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Baked Cookie Dough</p>
+                    <p class="description">Raw cookie dough that has been baked</p>
+                </div>
+                <div class="foodprice">
+                    <p>6.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Cookie Of The Day</p>
+                    <p class="description">Specially selected custom made cookie, made to fit the current day</p>
+                </div>
+                <div class="foodprice">
+                    <p>7.00</p>
+                </div>
+            </div>
+            <h2 class="course-header">Mains</h2>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Meal Replacement Cookie</p>
+                    <p class="description">All the important nutrients and vitamines squished together in a cookie-like pastry</p>
+                </div>
+                <div class="foodprice">
+                    <p>14.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Feels Good Bucket</p>
+                    <p class="description">If the previous item was too healthy for you, enjoy this bucket of sweet delight</p>
+                </div>
+                <div class="foodprice">
+                    <p>13.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Chocolate Pizza</p>
+                    <p class="description">A tasty chocolate cookie, prepared italian style</p>
+                </div>
+                <div class="foodprice">
+                    <p>16.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Flammkuchen</p>
+                    <p class="description">A thin crust topped with union, bacon and creme fraiche</p>
+                </div>
+                <div class="foodprice">
+                    <p>18.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Picturesque Pancake</p>
+                    <p class="description">Some batter baked in a pan and presented with grace</p>
+                </div>
+                <div class="foodprice">
+                    <p>9.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Record-Breaker</p>
+                    <p class="description">The worlds largest cookie served in a restaurant, recommended for two people</p>
+                </div>
+                <div class="foodprice">
+                    <p>32.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Season Special</p>
+                    <p class="description">A special course depending on the current season</p>
+                </div>
+                <div class="foodprice">
+                    <p>16.50</p>
+                </div>
+            </div>
+            <h2 class="course-header">Desserts</h2>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Cookie Plate</p>
+                    <p class="description">The finest selection of cookies, served on a neatly decorated plate</p>
+                </div>
+                <div class="foodprice">
+                    <p>10.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Coffee 'n Cookie</p>
+                    <p class="description">Enjoy your favorite type of coffee with a perfectly matching cookie hand-picked by us</p>
+                </div>
+                <div class="foodprice">
+                    <p>5.00</p>
+                </div>
+            </div>
+            <div class="fooditem">
+                <div class="foodtext">
+                    <p class="name">Gluten-Free Gateau</p>
+                    <p class="description">Richly filled cake that's completely gluten-free</p>
                 </div>
                 <div class="foodprice">
                     <p>8.00</p>
@@ -43,41 +181,98 @@
             </div>
             <div class="fooditem">
                 <div class="foodtext">
-                    <p class="name">Choc Chip</p>
-                    <p class="description">Big round cookie with chocolate in it</p>    
+                    <p class="name">Ice Cream Cookie</p>
+                    <p class="description">Delicious ice cream between two cookies</p>
                 </div>
                 <div class="foodprice">
-                    <p>12.00</p>
+                    <p>7.00</p>
                 </div>
             </div>
-            <h2>Mains</h2>
-            <div class="fooditem">
-                <div class="foodtext">
-                    <p class="name">Hoi</p>
-                    <p class="description">Very nice</p>    
-                </div>
-                <div class="foodprice">
-                    <p>69.00</p>
-                </div>
-            </div>
-            <div class="fooditem">
-                <div class="foodtext">
-                    <p class="name">Feels Good man</p>
-                    <p class="description">a very long description like oh my god so long i hope it will be two lines but it wasn't long enough so i'm adding even more text to hope that this in fact will be enough</p>    
-                </div>
-                <div class="foodprice">
-                    <p>0.50</p>
-                </div>
-            </div>
-            <div class="fooditem">
-                <div class="foodtext">
-                    <p class="name">Choc Chip</p>
-                    <p class="description">Big round cookie with chocolate in it</p>    
-                </div>
-                <div class="foodprice">
-                    <p>12.00</p>
-                </div>
-            </div>
+            <br>
         </div>
+        <footer id="footer">
+            <div class=" desktop-user">
+                <div id="openingtimes">
+                    <table class="time-table">
+                        <tr class="time-table">
+                            <th class="time-table">
+                                Day
+                            </th>
+                            <th class="time-table">
+                                Time      
+                            </th>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Monday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Tuesday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Wednesday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Thursday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Friday
+                            </td>
+                            <td class="time-table">
+                                9:00-2100
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Saturday
+                            </td>
+                            <td class="time-table">
+                                10:00-20:00
+                            </td>
+                        </tr>
+                        <tr class="time-table">
+                            <td class="time-table">
+                                Sunday
+                            </td>
+                            <td class="time-table">
+                                Closed
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="beterlevenkeurmerk">
+                    <h5>We don't put effort into a better life for animals</h5>
+                    <img class="beterlevenkeurmerk" src="../media/beterleven-1ster.jpg" alt="we only have one beterleven star">
+                </div>
+                <a href="https://www.termsfeed.com/live/b6e9efa3-4574-4848-802a-d16e3c5cfddf">Terms and Conditions</a>
+            </div>
+            <div class="mobile-user footer-links">
+                <a class="footerlinks" href="./Contact.html#openingtimes">Opening Times</a>
+                <a href="./Contact.html#staffmembers">Staff members</a>
+                <a href="https://www.termsfeed.com/live/b6e9efa3-4574-4848-802a-d16e3c5cfddf">Terms and Conditions</a>
+            </div>
+        </footer>
+        <!--scripts: navbutton-->    
+    <script src="../javascript/navdropdownbutton.js"></script>
     </body>
 </html>
