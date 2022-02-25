@@ -7,7 +7,14 @@ html,body{
 footer{
   color: #f1f1f1;
   background-color: rgb(36, 35, 35);
-  width: 100%;
+  font-size: 16;
+  width: auto;
+}
+.footer-links{
+  text-decoration: none;
+  color: #f1f1f1;
+  float: left;
+  left: 10px;
 }
 
 .topbar{

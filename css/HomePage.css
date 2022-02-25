@@ -1,1 +1,28 @@
 @import "generalmarkup.css";
+
+#maintitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 100%;
+    height: 100px;
+    background-image: url(../media/whitecookie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: rgb(77, 227, 247);
+}
+
+#maincontent{
+    padding:0%;
+}
+
+#movingcookies{
+    float: right;
+    height: 300px;
+}
+
+.article-left{
+}
+
+.article-right{
+}
