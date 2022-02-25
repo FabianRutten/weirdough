@@ -21,11 +21,17 @@
     height: 300px;
 }
 
+@media only screen and (max-width: 600px){
+    #movingcookies{
+        height: 100px;
+    }
+}
+
 .article-left{
     background-color: rgb(181, 219, 213);
     display: block;
 }
 
 .article-right{
-    display: inline-block;
+
 }
